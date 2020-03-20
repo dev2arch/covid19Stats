@@ -100,7 +100,7 @@ class AppComponent {
         this.countries = [];
         this.country = 'India';
         this.title = 'covid19 Cases in ';
-        this.countries = ['India', 'Usa', 'Italy', 'China', 'Pakistan', 'Canada'];
+        this.countries = ['India', 'Usa', 'Italy', 'China', 'Pakistan', 'Canada', 'Germany', 'France', 'Spain', 'Australia'];
     }
     ngOnInit() {
         this.getCovidUpdate(this.country);
