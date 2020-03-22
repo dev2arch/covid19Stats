@@ -407,6 +407,76 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _home_home_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
     /*! ./home/home.component */
     "./src/app/home/home.component.ts");
+    /* harmony import */
+
+
+    var angular_fusioncharts__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
+    /*! angular-fusioncharts */
+    "./node_modules/angular-fusioncharts/__ivy_ngcc__/index.js");
+    /* harmony import */
+
+
+    var fusioncharts__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
+    /*! fusioncharts */
+    "./node_modules/fusioncharts/fusioncharts.js");
+    /* harmony import */
+
+
+    var fusioncharts__WEBPACK_IMPORTED_MODULE_15___default =
+    /*#__PURE__*/
+    __webpack_require__.n(fusioncharts__WEBPACK_IMPORTED_MODULE_15__);
+    /* harmony import */
+
+
+    var fusioncharts_fusioncharts_powercharts__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
+    /*! fusioncharts/fusioncharts.powercharts */
+    "./node_modules/fusioncharts/fusioncharts.powercharts.js");
+    /* harmony import */
+
+
+    var fusioncharts_fusioncharts_powercharts__WEBPACK_IMPORTED_MODULE_16___default =
+    /*#__PURE__*/
+    __webpack_require__.n(fusioncharts_fusioncharts_powercharts__WEBPACK_IMPORTED_MODULE_16__);
+    /* harmony import */
+
+
+    var fusioncharts_fusioncharts_maps__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
+    /*! fusioncharts/fusioncharts.maps */
+    "./node_modules/fusioncharts/fusioncharts.maps.js");
+    /* harmony import */
+
+
+    var fusioncharts_fusioncharts_maps__WEBPACK_IMPORTED_MODULE_17___default =
+    /*#__PURE__*/
+    __webpack_require__.n(fusioncharts_fusioncharts_maps__WEBPACK_IMPORTED_MODULE_17__);
+    /* harmony import */
+
+
+    var fusionmaps_maps_fusioncharts_india__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
+    /*! fusionmaps/maps/fusioncharts.india */
+    "./node_modules/fusionmaps/maps/fusioncharts.india.js");
+    /* harmony import */
+
+
+    var fusionmaps_maps_fusioncharts_india__WEBPACK_IMPORTED_MODULE_18___default =
+    /*#__PURE__*/
+    __webpack_require__.n(fusionmaps_maps_fusioncharts_india__WEBPACK_IMPORTED_MODULE_18__);
+    /* harmony import */
+
+
+    var fusioncharts_themes_fusioncharts_theme_fusion__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
+    /*! fusioncharts/themes/fusioncharts.theme.fusion */
+    "./node_modules/fusioncharts/themes/fusioncharts.theme.fusion.js");
+    /* harmony import */
+
+
+    var fusioncharts_themes_fusioncharts_theme_fusion__WEBPACK_IMPORTED_MODULE_19___default =
+    /*#__PURE__*/
+    __webpack_require__.n(fusioncharts_themes_fusioncharts_theme_fusion__WEBPACK_IMPORTED_MODULE_19__); // Import FusionCharts library and chart modules
+    // Pass the fusioncharts library and chart modules
+
+
+    angular_fusioncharts__WEBPACK_IMPORTED_MODULE_14__["FusionChartsModule"].fcRoot(fusioncharts__WEBPACK_IMPORTED_MODULE_15__, fusioncharts_fusioncharts_powercharts__WEBPACK_IMPORTED_MODULE_16__, fusioncharts_fusioncharts_maps__WEBPACK_IMPORTED_MODULE_17__, fusionmaps_maps_fusioncharts_india__WEBPACK_IMPORTED_MODULE_18__, fusioncharts_themes_fusioncharts_theme_fusion__WEBPACK_IMPORTED_MODULE_19__);
 
     var AppModule = function AppModule() {
       _classCallCheck(this, AppModule);
@@ -421,13 +491,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         return new (t || AppModule)();
       },
       providers: [_covid_data_service__WEBPACK_IMPORTED_MODULE_6__["CovidDataService"]],
-      imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_4__["BrowserAnimationsModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClientModule"], _angular_material_select__WEBPACK_IMPORTED_MODULE_7__["MatSelectModule"], angular_google_charts__WEBPACK_IMPORTED_MODULE_8__["GoogleChartsModule"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_9__["MatIconModule"], _angular_material_menu__WEBPACK_IMPORTED_MODULE_10__["MatMenuModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_11__["MatButtonModule"]]]
+      imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_4__["BrowserAnimationsModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClientModule"], _angular_material_select__WEBPACK_IMPORTED_MODULE_7__["MatSelectModule"], angular_google_charts__WEBPACK_IMPORTED_MODULE_8__["GoogleChartsModule"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_9__["MatIconModule"], _angular_material_menu__WEBPACK_IMPORTED_MODULE_10__["MatMenuModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_11__["MatButtonModule"], angular_fusioncharts__WEBPACK_IMPORTED_MODULE_14__["FusionChartsModule"]]]
     });
 
     (function () {
       (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, {
         declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _help_center_help_center_component__WEBPACK_IMPORTED_MODULE_12__["HelpCenterComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_13__["HomeComponent"]],
-        imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_4__["BrowserAnimationsModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClientModule"], _angular_material_select__WEBPACK_IMPORTED_MODULE_7__["MatSelectModule"], angular_google_charts__WEBPACK_IMPORTED_MODULE_8__["GoogleChartsModule"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_9__["MatIconModule"], _angular_material_menu__WEBPACK_IMPORTED_MODULE_10__["MatMenuModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_11__["MatButtonModule"]]
+        imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_4__["BrowserAnimationsModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClientModule"], _angular_material_select__WEBPACK_IMPORTED_MODULE_7__["MatSelectModule"], angular_google_charts__WEBPACK_IMPORTED_MODULE_8__["GoogleChartsModule"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_9__["MatIconModule"], _angular_material_menu__WEBPACK_IMPORTED_MODULE_10__["MatMenuModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_11__["MatButtonModule"], angular_fusioncharts__WEBPACK_IMPORTED_MODULE_14__["FusionChartsModule"]]
       });
     })();
     /*@__PURE__*/
@@ -438,7 +508,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
           declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _help_center_help_center_component__WEBPACK_IMPORTED_MODULE_12__["HelpCenterComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_13__["HomeComponent"]],
-          imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_4__["BrowserAnimationsModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClientModule"], _angular_material_select__WEBPACK_IMPORTED_MODULE_7__["MatSelectModule"], angular_google_charts__WEBPACK_IMPORTED_MODULE_8__["GoogleChartsModule"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_9__["MatIconModule"], _angular_material_menu__WEBPACK_IMPORTED_MODULE_10__["MatMenuModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_11__["MatButtonModule"]],
+          imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_4__["BrowserAnimationsModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClientModule"], _angular_material_select__WEBPACK_IMPORTED_MODULE_7__["MatSelectModule"], angular_google_charts__WEBPACK_IMPORTED_MODULE_8__["GoogleChartsModule"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_9__["MatIconModule"], _angular_material_menu__WEBPACK_IMPORTED_MODULE_10__["MatMenuModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_11__["MatButtonModule"], angular_fusioncharts__WEBPACK_IMPORTED_MODULE_14__["FusionChartsModule"]],
           providers: [_covid_data_service__WEBPACK_IMPORTED_MODULE_6__["CovidDataService"]],
           bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
         }]
@@ -479,6 +549,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/common/http */
     "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
+    /* harmony import */
+
+
+    var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! rxjs/operators */
+    "./node_modules/rxjs/_esm2015/operators/index.js");
 
     var CovidDataService =
     /*#__PURE__*/
@@ -492,7 +568,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(CovidDataService, [{
         key: "getData",
         value: function getData(country) {
-          console.log(country);
           var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({
             "x-rapidapi-host": "coronavirus-monitor.p.rapidapi.com",
             "x-rapidapi-key": "8837c5d3c4msh517769883b6d693p1cf199jsn895aef8c65d1"
@@ -514,10 +589,53 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           headers.append("x-rapidapi-key", "8837c5d3c4msh517769883b6d693p1cf199jsn895aef8c65d1");
           headers.append("x-rapidapi-host", "coronavirus-monitor.p.rapidapi.com");
           var url = "https://coronavirus-monitor.p.rapidapi.com/coronavirus/cases_by_particular_country.php?country=" + country;
-          console.log(url);
           return this.http.get(url, {
             headers: headers
           });
+        }
+      }, {
+        key: "getStatesData",
+        value: function getStatesData() {
+          return this.http.get('https://covid-91177.firebaseio.com/countByState.json').pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (responseData) {
+            var statesArray = [];
+
+            for (var key in responseData) {
+              if (key === 'count') {
+                responseData['count'] = responseData['value'];
+                delete responseData['count'];
+              }
+
+              statesArray.push(Object.assign({}, responseData[key])); // statesArray.push({...responseData[key]})
+            }
+
+            console.log(statesArray);
+            var statesArrayData = [];
+            var mapData = [];
+
+            for (var _key in statesArray) {
+              var color = '';
+
+              if (statesArray[_key].count <= 5) {
+                color = 'green';
+              } else if (statesArray[_key].count <= 20) {
+                color = 'orange';
+              } else if (statesArray[_key].count >= 20) {
+                color = 'red';
+              }
+
+              statesArrayData.push([statesArray[_key].name, statesArray[_key].count, color, statesArray[_key].count]);
+              mapData.push({
+                id: statesArray[_key].id,
+                value: statesArray[_key].count
+              });
+            }
+
+            var result = {};
+            result['statesArrayData'] = statesArrayData;
+            result['mapdata'] = mapData;
+            console.log(result);
+            return result;
+          }));
         }
       }]);
 
@@ -693,25 +811,31 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var angular_google_charts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    var angular_fusioncharts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    /*! angular-fusioncharts */
+    "./node_modules/angular-fusioncharts/__ivy_ngcc__/index.js");
+    /* harmony import */
+
+
+    var angular_google_charts__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! angular-google-charts */
     "./node_modules/angular-google-charts/__ivy_ngcc__/fesm2015/angular-google-charts.js");
     /* harmony import */
 
 
-    var _angular_router__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    var _angular_router__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! @angular/router */
     "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
     /* harmony import */
 
 
-    var _angular_material_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    var _angular_material_core__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
     /*! @angular/material/core */
     "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/core.js");
 
     function HomeComponent_mat_option_10_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-option", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-option", 28);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
 
@@ -739,7 +863,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.covidData = {};
         this.stats = [];
         this.statesChart = {
-          'states': [['Maharashtra', 74, 'red', 74], ['Kerala', 64, 'red', 64], ['Delhi', 26, 'red', 26], ['Uttar Pradesh', 27, 'red', 27], ['Rajasthan', 26, 'red', 26], ['Karnataka', 22, 'red', 22], ['Telangana', 22, 'red', 22], ['Haryana', 22, 'red', 22], ['Punjab', 21, 'Orange', 21], ['Gujarat', 18, 'red', 18], ['Ladakh', 13, 'orange', 13], ['Chandigarh', 8, 'orange', 8], ['[West Bengal', 7, 'yellow', 7], ['Tamil Nadu', 6, '', 6], ['Andhra Pradesh', 5, 'darkyellow', 5], ['J&K', 4, 'darkyellow', 4], ['Madhya Pradesh', 4, 'yellow', 4], ['Uttarakhand', 3, 'green', 3], ['Odisha', 2, 'darkgreen', 2], ['Himachal Pradesh', 2, 'darkgreen', 2], ['BIHAR', 2, 'darkgreen', 2], ['Oddisha', 2, 'darkgreen', 2], ['Puducherry', 1, 'darkgreen', 1], ['Chhattisgarh', 1, 'darkgreen', 1], ['Assam', 1, 'darkgreen', 1]],
+          'states': [],
           'type': 'BarChart',
           'columnNames': ['State', 'Positive Cases', {
             role: 'style'
@@ -751,6 +875,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.countries = [];
         this.country = 'India';
         this.history = {};
+        this.dataSource = {};
         this.chartTitle = '';
         this.type = 'PieChart';
         this.data = [['Above 60', 100], ['Below 60', 232]];
@@ -762,6 +887,48 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.width = 350;
         this.title = 'covid19 Status ';
         this.countries = ['India', 'Usa', 'Italy', 'China', 'Pakistan', 'Canada', 'Germany', 'France', 'Spain', 'Australia'];
+        this.dataSource = {
+          chart: {
+            animation: "0",
+            showlabel: "1",
+            usehovercolor: "1",
+            canvasbordercolor: "FFFFFF",
+            bordercolor: "FFFFFF",
+            showlegend: "1",
+            legendposition: "BOTTOM",
+            legendborderalpha: "0",
+            legendbordercolor: "ffffff",
+            legendallowdrag: "0",
+            legendshadow: "0",
+            caption: "Map View - States",
+            connectorcolor: "000000",
+            fillalpha: "80",
+            hovercolor: "CDCDCD",
+            showborder: 0,
+            theme: "fusion"
+          },
+          colorrange: {
+            minvalue: "0",
+            startlabel: "Low",
+            endlabel: "High",
+            code: "e27c25",
+            gradient: "1",
+            color: [{
+              maxvalue: "5",
+              code: "e44a00"
+            }, {
+              maxvalue: "150",
+              code: "7d0000"
+            }]
+          },
+          data: [{
+            id: "015",
+            value: 2834
+          }, {
+            id: "003",
+            value: 3182
+          }]
+        };
       }
 
       _createClass(HomeComponent, [{
@@ -770,6 +937,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.getCovidUpdate(this.country);
           this.getHistory(this.country);
           this.innerWidth = window.innerWidth - 50;
+          this.getStatesSegrigatedData();
         }
       }, {
         key: "onResize",
@@ -800,6 +968,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             return console.log(er);
           });
         }
+      }, {
+        key: "getStatesSegrigatedData",
+        value: function getStatesSegrigatedData() {
+          var _this5 = this;
+
+          this.covidDataService.getStatesData().subscribe(function (data) {
+            _this5.statesChart.states = data['statesArrayData'], _this5.dataSource['data'] = data['mapdata'], console.log(data);
+          }, function (err) {
+            return console.log(err);
+          });
+        }
       }]);
 
       return HomeComponent;
@@ -819,9 +998,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           }, false, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresolveWindow"]);
         }
       },
-      decls: 77,
-      vars: 17,
-      consts: [["role", "main", 1, "content", "conent-padding"], [2, "background", "#fff"], [1, "card", "highlight-card", "card-small", "app-padding", 2, "justify-content", "left"], ["mat-icon-button", "", "matTooltip", "Language", 1, "pl-4", 3, "click"], [1, "text-primary"], [1, "langSelect", 3, "value", "valueChange", "selectionChange"], ["select", ""], [3, "value", 4, "ngFor", "ngForOf"], [1, "pl-4", "text-primary"], [1, "card-container", "row", "no-margin"], ["tabindex", "0", 1, "card", "card-small", "app-padding", "col-12", "col-md-3"], [2, "color", "#32a3ff"], [1, "pl-1"], [2, "color", "#ff7b1c"], [2, "color", "#901c21"], [2, "color", "#ff666d"], [2, "color", "#47cd57"], [2, "color", "#ffd835"], ["tabindex", "0", 1, "card", "card-small", "app-padding", "col-12", "col-md-12", "mb-0", 2, "border-bottom", "none"], [2, "color", "#6e6e6e"], ["tabindex", "0", 1, "col-md-12", "border", 2, "border-top", "0"], [3, "title", "type", "data", "columnNames", "options", "width"], ["chart", ""], [1, "pl-1", "text-primary"], ["routerLink", "/centers"], [1, "pl-2"], [3, "value"]],
+      decls: 79,
+      vars: 19,
+      consts: [["role", "main", 1, "content", "conent-padding"], [2, "background", "#fff"], [1, "card", "highlight-card", "card-small", "app-padding", 2, "justify-content", "left"], ["mat-icon-button", "", "matTooltip", "Language", 1, "pl-4", 3, "click"], [1, "text-primary"], [1, "langSelect", 3, "value", "valueChange", "selectionChange"], ["select", ""], [3, "value", 4, "ngFor", "ngForOf"], [1, "pl-4", "text-primary"], [1, "card-container", "row", "no-margin"], ["tabindex", "0", 1, "card", "card-small", "app-padding", "col-12", "col-md-3"], [2, "color", "#32a3ff"], [1, "pl-1"], [2, "color", "#ff7b1c"], [2, "color", "#901c21"], [2, "color", "#ff666d"], [2, "color", "#47cd57"], [2, "color", "#ffd835"], ["tabindex", "0", 1, "card", "card-small", "app-padding", "col-12", "col-md-12", "mb-0", 2, "border-bottom", "none"], [2, "color", "#6e6e6e"], [1, "col-md-12", "border", "text-center"], ["height", "550", "type", "india", 3, "width", "dataSource"], ["tabindex", "0", 1, "col-md-12", "border", 2, "border-top", "0"], [3, "title", "type", "data", "columnNames", "options", "width"], ["chart", ""], [1, "pl-1", "text-primary"], ["routerLink", "/centers"], [1, "pl-2"], [3, "value"]],
       template: function HomeComponent_Template(rf, ctx) {
         if (rf & 1) {
           var _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
@@ -1056,7 +1235,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "div", 20);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](68, "google-chart", 21, 22);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](68, "fusioncharts", 21);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "div", 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](70, "google-chart", 23, 24);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1064,19 +1249,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "div", 1);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "div", 1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "div", 2);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "div", 2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "span", 23);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "span", 25);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "a", 24);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "a", 26);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "b", 25);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "b", 27);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "Help Centers and Labs for Covid 19");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](77, "Help Centers and Labs for Covid 19");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1084,7 +1267,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](76, "div", 9);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](78, "div", 9);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1138,10 +1323,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
 
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("width", ctx.innerWidth)("dataSource", ctx.dataSource);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("title", ctx.statesChart.chartTitle)("type", ctx.statesChart.type)("data", ctx.statesChart.states)("columnNames", ctx.statesChart.columnNames)("options", ctx.options)("width", ctx.innerWidth);
         }
       },
-      directives: [_angular_material_button__WEBPACK_IMPORTED_MODULE_2__["MatButton"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_3__["MatIcon"], _angular_material_select__WEBPACK_IMPORTED_MODULE_4__["MatSelect"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], angular_google_charts__WEBPACK_IMPORTED_MODULE_6__["GoogleChartComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_7__["RouterLinkWithHref"], _angular_material_core__WEBPACK_IMPORTED_MODULE_8__["MatOption"]],
+      directives: [_angular_material_button__WEBPACK_IMPORTED_MODULE_2__["MatButton"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_3__["MatIcon"], _angular_material_select__WEBPACK_IMPORTED_MODULE_4__["MatSelect"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], angular_fusioncharts__WEBPACK_IMPORTED_MODULE_6__["FusionChartsComponent"], angular_google_charts__WEBPACK_IMPORTED_MODULE_7__["GoogleChartComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_8__["RouterLinkWithHref"], _angular_material_core__WEBPACK_IMPORTED_MODULE_9__["MatOption"]],
       styles: ["[_nghost-%COMP%] {\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\";\n  font-size: 14px;\n  color: #333;\n  box-sizing: border-box;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\nh1[_ngcontent-%COMP%], h2[_ngcontent-%COMP%], h3[_ngcontent-%COMP%], h4[_ngcontent-%COMP%], h5[_ngcontent-%COMP%], h6[_ngcontent-%COMP%] {\n  margin: 8px 0;\n}\n\np[_ngcontent-%COMP%] {\n  margin: 0;\n}\n\n.spacer[_ngcontent-%COMP%] {\n  flex: 1;\n}\n\n.toolbar[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  height: 60px;\n  display: flex;\n  align-items: center;\n  background-color: #1976d2;\n  color: white;\n  font-weight: 600;\n}\n\n.toolbar[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  margin: 0 16px;\n}\n\n.toolbar[_ngcontent-%COMP%]   #twitter-logo[_ngcontent-%COMP%] {\n  height: 40px;\n  margin: 0 16px;\n}\n\n.toolbar[_ngcontent-%COMP%]   #twitter-logo[_ngcontent-%COMP%]:hover {\n  opacity: 0.8;\n}\n\n.content[_ngcontent-%COMP%] {\n  display: flex;\n  margin: 82px auto 32px;\n  \n  max-width: 980px;\n  flex-direction: column;\n  align-items: center;\n}\n\nsvg.material-icons[_ngcontent-%COMP%] {\n  height: 24px;\n  width: auto;\n}\n\nsvg.material-icons[_ngcontent-%COMP%]:not(:last-child) {\n  margin-right: 8px;\n}\n\n.card[_ngcontent-%COMP%]   svg.material-icons[_ngcontent-%COMP%]   path[_ngcontent-%COMP%] {\n  fill: #888;\n}\n\n.card-container[_ngcontent-%COMP%] {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  margin-top: 16px;\n}\n\n.card[_ngcontent-%COMP%] {\n  border-radius: 4px;\n  border: 1px solid #eee;\n  background: none;\n  height: 40px;\n  margin: 0 0px 16px ;\n  padding: 16px;\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  transition: all 0.2s ease-in-out;\n  line-height: 24px;\n}\n\n.card-container[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]:not(:last-child) {\n  margin-right: 0;\n}\n\n.card.card-small[_ngcontent-%COMP%] {\n  height: 16px;\n}\n\n.card-container[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]:not(.highlight-card) {\n  cursor: pointer;\n}\n\n.card-container[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]:not(.highlight-card):hover {\n  transform: translateY(-3px);\n  box-shadow: 0 4px 17px rgba(black, 0.35);\n}\n\n.card-container[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]:not(.highlight-card):hover   .material-icons[_ngcontent-%COMP%]   path[_ngcontent-%COMP%] {\n  fill: rgb(105, 103, 103);\n}\n\n.card.highlight-card[_ngcontent-%COMP%] {\n  \n  background: none;\n  color: white;\n  font-weight: 600;\n  border: none;\n  width: 100%;\n  min-width: 30%;\n  position: relative;\n}\n\n.card.card.highlight-card[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  margin-left: 10px;\n}\n\nsvg#rocket[_ngcontent-%COMP%] {\n  width: 80px;\n  position: absolute;\n  left: -10px;\n  top: -24px;\n}\n\nsvg#rocket-smoke[_ngcontent-%COMP%] {\n  height: calc(100vh - 95px);\n  position: absolute;\n  top: 10px;\n  right: 180px;\n  z-index: -10;\n}\n\na[_ngcontent-%COMP%], a[_ngcontent-%COMP%]:visited, a[_ngcontent-%COMP%]:hover {\n  color: #1976d2;\n  text-decoration: none;\n}\n\na[_ngcontent-%COMP%]:hover {\n  color: #125699;\n}\n\n.terminal[_ngcontent-%COMP%] {\n  position: relative;\n  width: 80%;\n  max-width: 600px;\n  border-radius: 6px;\n  padding-top: 45px;\n  margin-top: 8px;\n  overflow: hidden;\n  background-color: rgb(15, 15, 16);\n}\n\n.terminal[_ngcontent-%COMP%]::before {\n  content: \"\\2022 \\2022 \\2022\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 4px;\n  background: rgb(58, 58, 58);\n  color: #c2c3c4;\n  width: 100%;\n  font-size: 2rem;\n  line-height: 0;\n  padding: 14px 0;\n  text-indent: 4px;\n}\n\n.terminal[_ngcontent-%COMP%]   pre[_ngcontent-%COMP%] {\n  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;\n  color: white;\n  padding: 0 1rem 1rem;\n  margin: 0;\n}\n\n.circle-link[_ngcontent-%COMP%] {\n  height: 40px;\n  width: 40px;\n  border-radius: 40px;\n  margin: 8px;\n  background-color: white;\n  border: 1px solid #eeeeee;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  cursor: pointer;\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  transition: 1s ease-out;\n}\n\n.circle-link[_ngcontent-%COMP%]:hover {\n  transform: translateY(-0.25rem);\n  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);\n}\n\nfooter[_ngcontent-%COMP%] {\n  margin-top: 8px;\n  display: flex;\n  align-items: center;\n  line-height: 20px;\n}\n\nfooter[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  display: flex;\n  align-items: center;\n}\n\n.github-star-badge[_ngcontent-%COMP%] {\n  color: #24292e;\n  display: flex;\n  align-items: center;\n  font-size: 12px;\n  padding: 3px 10px;\n  border: 1px solid rgba(27,31,35,.2);\n  border-radius: 3px;\n  background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);\n  margin-left: 4px;\n  font-weight: 600;\n  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;\n}\n\n.github-star-badge[_ngcontent-%COMP%]:hover {\n  background-image: linear-gradient(-180deg,#f0f3f6,#e6ebf1 90%);\n  border-color: rgba(27,31,35,.35);\n  background-position: -.5em;\n}\n\n.github-star-badge[_ngcontent-%COMP%]   .material-icons[_ngcontent-%COMP%] {\n  height: 16px;\n  width: 16px;\n  margin-right: 4px;\n}\n\nsvg#clouds[_ngcontent-%COMP%] {\n  position: fixed;\n  bottom: -160px;\n  left: -230px;\n  z-index: -10;\n  width: 1920px;\n}\n\n\n\n@media screen and (max-width: 767px) {\n\n  .card-container[_ngcontent-%COMP%]    > *[_ngcontent-%COMP%]:not(.circle-link), .terminal[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n\n  .card[_ngcontent-%COMP%]:not(.highlight-card) {\n    height: 16px;\n    margin: 8px 0;\n  }\n\n  .card.highlight-card[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n    margin-left: 72px;\n  }\n\n  svg#rocket-smoke[_ngcontent-%COMP%] {\n    right: 120px;\n    transform: rotate(-5deg);\n  }\n}\n\n@media screen and (max-width: 575px) {\n  svg#rocket-smoke[_ngcontent-%COMP%] {\n    display: none;\n    visibility: hidden;\n  }\n}\n\n.pl-1[_ngcontent-%COMP%]{\n  padding-left: 1rem;}\n\n.mb-2[_ngcontent-%COMP%]{\n  margin-bottom: 2rem;\n}\n\n.app-padding[_ngcontent-%COMP%]{\n  padding: 30px 10px;\n}\n\n  .langSelect div.mat-select-arrow-wrapper {\n  display: none;\n}\n\n  .langSelect.mat-select {\n  display: inline;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBO0VBQ0UsMEpBQTBKO0VBQzFKLGVBQWU7RUFDZixXQUFXO0VBQ1gsc0JBQXNCO0VBQ3RCLG1DQUFtQztFQUNuQyxrQ0FBa0M7QUFDcEM7O0FBRUE7Ozs7OztFQU1FLGFBQWE7QUFDZjs7QUFFQTtFQUNFLFNBQVM7QUFDWDs7QUFFQTtFQUNFLE9BQU87QUFDVDs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixNQUFNO0VBQ04sT0FBTztFQUNQLFFBQVE7RUFDUixZQUFZO0VBQ1osYUFBYTtFQUNiLG1CQUFtQjtFQUNuQix5QkFBeUI7RUFDekIsWUFBWTtFQUNaLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLGNBQWM7QUFDaEI7O0FBRUE7RUFDRSxZQUFZO0VBQ1osY0FBYztBQUNoQjs7QUFFQTtFQUNFLFlBQVk7QUFDZDs7QUFFQTtFQUNFLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsbUJBQW1CO0VBQ25CLGdCQUFnQjtFQUNoQixzQkFBc0I7RUFDdEIsbUJBQW1CO0FBQ3JCOztBQUVBO0VBQ0UsWUFBWTtFQUNaLFdBQVc7QUFDYjs7QUFFQTtFQUNFLGlCQUFpQjtBQUNuQjs7QUFFQTtFQUNFLFVBQVU7QUFDWjs7QUFFQTtFQUNFLGFBQWE7RUFDYixlQUFlO0VBQ2YsdUJBQXVCO0VBQ3ZCLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixzQkFBc0I7RUFDdEIsZ0JBQWdCO0VBQ2hCLFlBQVk7RUFDWixtQkFBbUI7RUFDbkIsYUFBYTtFQUNiLGFBQWE7RUFDYixtQkFBbUI7RUFDbkIsdUJBQXVCO0VBQ3ZCLG1CQUFtQjtFQUNuQixnQ0FBZ0M7RUFDaEMsaUJBQWlCO0FBQ25COztBQUVBO0VBQ0UsZUFBZTtBQUNqQjs7QUFFQTtFQUNFLFlBQVk7QUFDZDs7QUFFQTtFQUNFLGVBQWU7QUFDakI7O0FBRUE7RUFDRSwyQkFBMkI7RUFDM0Isd0NBQXdDO0FBQzFDOztBQUVBO0VBQ0Usd0JBQXdCO0FBQzFCOztBQUVBO0VBQ0UsNkJBQTZCO0VBQzdCLGdCQUFnQjtFQUNoQixZQUFZO0VBQ1osZ0JBQWdCO0VBQ2hCLFlBQVk7RUFDWixXQUFXO0VBQ1gsY0FBYztFQUNkLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGlCQUFpQjtBQUNuQjs7QUFFQTtFQUNFLFdBQVc7RUFDWCxrQkFBa0I7RUFDbEIsV0FBVztFQUNYLFVBQVU7QUFDWjs7QUFFQTtFQUNFLDBCQUEwQjtFQUMxQixrQkFBa0I7RUFDbEIsU0FBUztFQUNULFlBQVk7RUFDWixZQUFZO0FBQ2Q7O0FBRUE7OztFQUdFLGNBQWM7RUFDZCxxQkFBcUI7QUFDdkI7O0FBRUE7RUFDRSxjQUFjO0FBQ2hCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLFVBQVU7RUFDVixnQkFBZ0I7RUFDaEIsa0JBQWtCO0VBQ2xCLGlCQUFpQjtFQUNqQixlQUFlO0VBQ2YsZ0JBQWdCO0VBQ2hCLGlDQUFpQztBQUNuQzs7QUFFQTtFQUNFLDRCQUE0QjtFQUM1QixrQkFBa0I7RUFDbEIsTUFBTTtFQUNOLE9BQU87RUFDUCxXQUFXO0VBQ1gsMkJBQTJCO0VBQzNCLGNBQWM7RUFDZCxXQUFXO0VBQ1gsZUFBZTtFQUNmLGNBQWM7RUFDZCxlQUFlO0VBQ2YsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0Usb0VBQW9FO0VBQ3BFLFlBQVk7RUFDWixvQkFBb0I7RUFDcEIsU0FBUztBQUNYOztBQUVBO0VBQ0UsWUFBWTtFQUNaLFdBQVc7RUFDWCxtQkFBbUI7RUFDbkIsV0FBVztFQUNYLHVCQUF1QjtFQUN2Qix5QkFBeUI7RUFDekIsYUFBYTtFQUNiLHVCQUF1QjtFQUN2QixtQkFBbUI7RUFDbkIsZUFBZTtFQUNmLHdFQUF3RTtFQUN4RSx1QkFBdUI7QUFDekI7O0FBRUE7RUFDRSwrQkFBK0I7RUFDL0IsMkNBQTJDO0FBQzdDOztBQUVBO0VBQ0UsZUFBZTtFQUNmLGFBQWE7RUFDYixtQkFBbUI7RUFDbkIsaUJBQWlCO0FBQ25COztBQUVBO0VBQ0UsYUFBYTtFQUNiLG1CQUFtQjtBQUNyQjs7QUFFQTtFQUNFLGNBQWM7RUFDZCxhQUFhO0VBQ2IsbUJBQW1CO0VBQ25CLGVBQWU7RUFDZixpQkFBaUI7RUFDakIsbUNBQW1DO0VBQ25DLGtCQUFrQjtFQUNsQiw4REFBOEQ7RUFDOUQsZ0JBQWdCO0VBQ2hCLGdCQUFnQjtFQUNoQixrSUFBa0k7QUFDcEk7O0FBRUE7RUFDRSw4REFBOEQ7RUFDOUQsZ0NBQWdDO0VBQ2hDLDBCQUEwQjtBQUM1Qjs7QUFFQTtFQUNFLFlBQVk7RUFDWixXQUFXO0VBQ1gsaUJBQWlCO0FBQ25COztBQUVBO0VBQ0UsZUFBZTtFQUNmLGNBQWM7RUFDZCxZQUFZO0VBQ1osWUFBWTtFQUNaLGFBQWE7QUFDZjs7QUFHQSxzQkFBc0I7O0FBQ3RCOztFQUVFOztJQUVFLFdBQVc7RUFDYjs7RUFFQTtJQUNFLFlBQVk7SUFDWixhQUFhO0VBQ2Y7O0VBRUE7SUFDRSxpQkFBaUI7RUFDbkI7O0VBRUE7SUFDRSxZQUFZO0lBQ1osd0JBQXdCO0VBQzFCO0FBQ0Y7O0FBRUE7RUFDRTtJQUNFLGFBQWE7SUFDYixrQkFBa0I7RUFDcEI7QUFDRjs7QUFDQTtFQUNFLGtCQUFrQixDQUFDOztBQUNyQjtFQUNFLG1CQUFtQjtBQUNyQjs7QUFDQTtFQUNFLGtCQUFrQjtBQUNwQjs7QUFDQTtFQUNFLGFBQWE7QUFDZjs7QUFFQTtFQUNFLGVBQWU7QUFDakIiLCJmaWxlIjoic3JjL2FwcC9ob21lL2hvbWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxuOmhvc3Qge1xuICBmb250LWZhbWlseTogLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCBcIlNlZ29lIFVJXCIsIFJvYm90bywgSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1zZXJpZiwgXCJBcHBsZSBDb2xvciBFbW9qaVwiLCBcIlNlZ29lIFVJIEVtb2ppXCIsIFwiU2Vnb2UgVUkgU3ltYm9sXCI7XG4gIGZvbnQtc2l6ZTogMTRweDtcbiAgY29sb3I6ICMzMzM7XG4gIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gIC13ZWJraXQtZm9udC1zbW9vdGhpbmc6IGFudGlhbGlhc2VkO1xuICAtbW96LW9zeC1mb250LXNtb290aGluZzogZ3JheXNjYWxlO1xufVxuXG5oMSxcbmgyLFxuaDMsXG5oNCxcbmg1LFxuaDYge1xuICBtYXJnaW46IDhweCAwO1xufVxuXG5wIHtcbiAgbWFyZ2luOiAwO1xufVxuXG4uc3BhY2VyIHtcbiAgZmxleDogMTtcbn1cblxuLnRvb2xiYXIge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHRvcDogMDtcbiAgbGVmdDogMDtcbiAgcmlnaHQ6IDA7XG4gIGhlaWdodDogNjBweDtcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzE5NzZkMjtcbiAgY29sb3I6IHdoaXRlO1xuICBmb250LXdlaWdodDogNjAwO1xufVxuXG4udG9vbGJhciBpbWcge1xuICBtYXJnaW46IDAgMTZweDtcbn1cblxuLnRvb2xiYXIgI3R3aXR0ZXItbG9nbyB7XG4gIGhlaWdodDogNDBweDtcbiAgbWFyZ2luOiAwIDE2cHg7XG59XG5cbi50b29sYmFyICN0d2l0dGVyLWxvZ286aG92ZXIge1xuICBvcGFjaXR5OiAwLjg7XG59XG5cbi5jb250ZW50IHtcbiAgZGlzcGxheTogZmxleDtcbiAgbWFyZ2luOiA4MnB4IGF1dG8gMzJweDtcbiAgLypwYWRkaW5nOiAwIDE2cHg7Ki9cbiAgbWF4LXdpZHRoOiA5ODBweDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cblxuc3ZnLm1hdGVyaWFsLWljb25zIHtcbiAgaGVpZ2h0OiAyNHB4O1xuICB3aWR0aDogYXV0bztcbn1cblxuc3ZnLm1hdGVyaWFsLWljb25zOm5vdCg6bGFzdC1jaGlsZCkge1xuICBtYXJnaW4tcmlnaHQ6IDhweDtcbn1cblxuLmNhcmQgc3ZnLm1hdGVyaWFsLWljb25zIHBhdGgge1xuICBmaWxsOiAjODg4O1xufVxuXG4uY2FyZC1jb250YWluZXIge1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LXdyYXA6IHdyYXA7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBtYXJnaW4tdG9wOiAxNnB4O1xufVxuXG4uY2FyZCB7XG4gIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgYm9yZGVyOiAxcHggc29saWQgI2VlZTtcbiAgYmFja2dyb3VuZDogbm9uZTtcbiAgaGVpZ2h0OiA0MHB4O1xuICBtYXJnaW46IDAgMHB4IDE2cHggO1xuICBwYWRkaW5nOiAxNnB4O1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogcm93O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZS1pbi1vdXQ7XG4gIGxpbmUtaGVpZ2h0OiAyNHB4O1xufVxuXG4uY2FyZC1jb250YWluZXIgLmNhcmQ6bm90KDpsYXN0LWNoaWxkKSB7XG4gIG1hcmdpbi1yaWdodDogMDtcbn1cblxuLmNhcmQuY2FyZC1zbWFsbCB7XG4gIGhlaWdodDogMTZweDtcbn1cblxuLmNhcmQtY29udGFpbmVyIC5jYXJkOm5vdCguaGlnaGxpZ2h0LWNhcmQpIHtcbiAgY3Vyc29yOiBwb2ludGVyO1xufVxuXG4uY2FyZC1jb250YWluZXIgLmNhcmQ6bm90KC5oaWdobGlnaHQtY2FyZCk6aG92ZXIge1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTNweCk7XG4gIGJveC1zaGFkb3c6IDAgNHB4IDE3cHggcmdiYShibGFjaywgMC4zNSk7XG59XG5cbi5jYXJkLWNvbnRhaW5lciAuY2FyZDpub3QoLmhpZ2hsaWdodC1jYXJkKTpob3ZlciAubWF0ZXJpYWwtaWNvbnMgcGF0aCB7XG4gIGZpbGw6IHJnYigxMDUsIDEwMywgMTAzKTtcbn1cblxuLmNhcmQuaGlnaGxpZ2h0LWNhcmQge1xuICAvKmJhY2tncm91bmQtY29sb3I6ICMxOTc2ZDI7Ki9cbiAgYmFja2dyb3VuZDogbm9uZTtcbiAgY29sb3I6IHdoaXRlO1xuICBmb250LXdlaWdodDogNjAwO1xuICBib3JkZXI6IG5vbmU7XG4gIHdpZHRoOiAxMDAlO1xuICBtaW4td2lkdGg6IDMwJTtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xufVxuXG4uY2FyZC5jYXJkLmhpZ2hsaWdodC1jYXJkIHNwYW4ge1xuICBtYXJnaW4tbGVmdDogMTBweDtcbn1cblxuc3ZnI3JvY2tldCB7XG4gIHdpZHRoOiA4MHB4O1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGxlZnQ6IC0xMHB4O1xuICB0b3A6IC0yNHB4O1xufVxuXG5zdmcjcm9ja2V0LXNtb2tlIHtcbiAgaGVpZ2h0OiBjYWxjKDEwMHZoIC0gOTVweCk7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgdG9wOiAxMHB4O1xuICByaWdodDogMTgwcHg7XG4gIHotaW5kZXg6IC0xMDtcbn1cblxuYSxcbmE6dmlzaXRlZCxcbmE6aG92ZXIge1xuICBjb2xvcjogIzE5NzZkMjtcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xufVxuXG5hOmhvdmVyIHtcbiAgY29sb3I6ICMxMjU2OTk7XG59XG5cbi50ZXJtaW5hbCB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgd2lkdGg6IDgwJTtcbiAgbWF4LXdpZHRoOiA2MDBweDtcbiAgYm9yZGVyLXJhZGl1czogNnB4O1xuICBwYWRkaW5nLXRvcDogNDVweDtcbiAgbWFyZ2luLXRvcDogOHB4O1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMTUsIDE1LCAxNik7XG59XG5cbi50ZXJtaW5hbDo6YmVmb3JlIHtcbiAgY29udGVudDogXCJcXDIwMjIgXFwyMDIyIFxcMjAyMlwiO1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHRvcDogMDtcbiAgbGVmdDogMDtcbiAgaGVpZ2h0OiA0cHg7XG4gIGJhY2tncm91bmQ6IHJnYig1OCwgNTgsIDU4KTtcbiAgY29sb3I6ICNjMmMzYzQ7XG4gIHdpZHRoOiAxMDAlO1xuICBmb250LXNpemU6IDJyZW07XG4gIGxpbmUtaGVpZ2h0OiAwO1xuICBwYWRkaW5nOiAxNHB4IDA7XG4gIHRleHQtaW5kZW50OiA0cHg7XG59XG5cbi50ZXJtaW5hbCBwcmUge1xuICBmb250LWZhbWlseTogU0ZNb25vLVJlZ3VsYXIsQ29uc29sYXMsTGliZXJhdGlvbiBNb25vLE1lbmxvLG1vbm9zcGFjZTtcbiAgY29sb3I6IHdoaXRlO1xuICBwYWRkaW5nOiAwIDFyZW0gMXJlbTtcbiAgbWFyZ2luOiAwO1xufVxuXG4uY2lyY2xlLWxpbmsge1xuICBoZWlnaHQ6IDQwcHg7XG4gIHdpZHRoOiA0MHB4O1xuICBib3JkZXItcmFkaXVzOiA0MHB4O1xuICBtYXJnaW46IDhweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XG4gIGJvcmRlcjogMXB4IHNvbGlkICNlZWVlZWU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBjdXJzb3I6IHBvaW50ZXI7XG4gIGJveC1zaGFkb3c6IDAgMXB4IDNweCByZ2JhKDAsIDAsIDAsIDAuMTIpLCAwIDFweCAycHggcmdiYSgwLCAwLCAwLCAwLjI0KTtcbiAgdHJhbnNpdGlvbjogMXMgZWFzZS1vdXQ7XG59XG5cbi5jaXJjbGUtbGluazpob3ZlciB7XG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtMC4yNXJlbSk7XG4gIGJveC1zaGFkb3c6IDBweCAzcHggMTVweCByZ2JhKDAsIDAsIDAsIDAuMik7XG59XG5cbmZvb3RlciB7XG4gIG1hcmdpbi10b3A6IDhweDtcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgbGluZS1oZWlnaHQ6IDIwcHg7XG59XG5cbmZvb3RlciBhIHtcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cblxuLmdpdGh1Yi1zdGFyLWJhZGdlIHtcbiAgY29sb3I6ICMyNDI5MmU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIGZvbnQtc2l6ZTogMTJweDtcbiAgcGFkZGluZzogM3B4IDEwcHg7XG4gIGJvcmRlcjogMXB4IHNvbGlkIHJnYmEoMjcsMzEsMzUsLjIpO1xuICBib3JkZXItcmFkaXVzOiAzcHg7XG4gIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudCgtMTgwZGVnLCNmYWZiZmMsI2VmZjNmNiA5MCUpO1xuICBtYXJnaW4tbGVmdDogNHB4O1xuICBmb250LXdlaWdodDogNjAwO1xuICBmb250LWZhbWlseTogLWFwcGxlLXN5c3RlbSxCbGlua01hY1N5c3RlbUZvbnQsU2Vnb2UgVUksSGVsdmV0aWNhLEFyaWFsLHNhbnMtc2VyaWYsQXBwbGUgQ29sb3IgRW1vamksU2Vnb2UgVUkgRW1vamksU2Vnb2UgVUkgU3ltYm9sO1xufVxuXG4uZ2l0aHViLXN0YXItYmFkZ2U6aG92ZXIge1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoLTE4MGRlZywjZjBmM2Y2LCNlNmViZjEgOTAlKTtcbiAgYm9yZGVyLWNvbG9yOiByZ2JhKDI3LDMxLDM1LC4zNSk7XG4gIGJhY2tncm91bmQtcG9zaXRpb246IC0uNWVtO1xufVxuXG4uZ2l0aHViLXN0YXItYmFkZ2UgLm1hdGVyaWFsLWljb25zIHtcbiAgaGVpZ2h0OiAxNnB4O1xuICB3aWR0aDogMTZweDtcbiAgbWFyZ2luLXJpZ2h0OiA0cHg7XG59XG5cbnN2ZyNjbG91ZHMge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGJvdHRvbTogLTE2MHB4O1xuICBsZWZ0OiAtMjMwcHg7XG4gIHotaW5kZXg6IC0xMDtcbiAgd2lkdGg6IDE5MjBweDtcbn1cblxuXG4vKiBSZXNwb25zaXZlIFN0eWxlcyAqL1xuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogNzY3cHgpIHtcblxuICAuY2FyZC1jb250YWluZXIgPiAqOm5vdCguY2lyY2xlLWxpbmspICxcbiAgLnRlcm1pbmFsIHtcbiAgICB3aWR0aDogMTAwJTtcbiAgfVxuXG4gIC5jYXJkOm5vdCguaGlnaGxpZ2h0LWNhcmQpIHtcbiAgICBoZWlnaHQ6IDE2cHg7XG4gICAgbWFyZ2luOiA4cHggMDtcbiAgfVxuXG4gIC5jYXJkLmhpZ2hsaWdodC1jYXJkIHNwYW4ge1xuICAgIG1hcmdpbi1sZWZ0OiA3MnB4O1xuICB9XG5cbiAgc3ZnI3JvY2tldC1zbW9rZSB7XG4gICAgcmlnaHQ6IDEyMHB4O1xuICAgIHRyYW5zZm9ybTogcm90YXRlKC01ZGVnKTtcbiAgfVxufVxuXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA1NzVweCkge1xuICBzdmcjcm9ja2V0LXNtb2tlIHtcbiAgICBkaXNwbGF5OiBub25lO1xuICAgIHZpc2liaWxpdHk6IGhpZGRlbjtcbiAgfVxufVxuLnBsLTF7XG4gIHBhZGRpbmctbGVmdDogMXJlbTt9XG4ubWItMntcbiAgbWFyZ2luLWJvdHRvbTogMnJlbTtcbn1cbi5hcHAtcGFkZGluZ3tcbiAgcGFkZGluZzogMzBweCAxMHB4O1xufVxuOjpuZy1kZWVwIC5sYW5nU2VsZWN0IGRpdi5tYXQtc2VsZWN0LWFycm93LXdyYXBwZXIge1xuICBkaXNwbGF5OiBub25lO1xufVxuXG46Om5nLWRlZXAgLmxhbmdTZWxlY3QubWF0LXNlbGVjdCB7XG4gIGRpc3BsYXk6IGlubGluZTtcbn1cbiJdfQ== */"]
     });
     /*@__PURE__*/
