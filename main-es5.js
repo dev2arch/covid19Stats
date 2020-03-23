@@ -219,7 +219,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var _this2 = this;
 
           this.covidDataService.getHistory(country).subscribe(function (data) {
-            _this2.history = data, console.log(_this2.history);
+            _this2.history = data;
           }, function (er) {
             return console.log(er);
           });
@@ -609,6 +609,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             }
 
             console.log(statesArray);
+            statesArray.sort(function (a, b) {
+              return a.count - b.count;
+            }).reverse();
             var statesArrayData = [];
             var mapData = [];
 
@@ -633,7 +636,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             var result = {};
             result['statesArrayData'] = statesArrayData;
             result['mapdata'] = mapData;
-            console.log(result);
             return result;
           }));
         }
@@ -862,6 +864,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.covidDataService = covidDataService;
         this.covidData = {};
         this.stats = [];
+        this.statesChart = {};
+        this.countries = [];
+        this.country = 'India';
+        this.history = {};
+        this.dataSource = {};
+        this.chartTitle = '';
+        this.type = 'PieChart';
+        this.options = {
+          is3D: true,
+          height: 900
+        };
+        this.width = 350;
+        this.title = 'covid19 Status ';
         this.statesChart = {
           'states': [],
           'type': 'BarChart',
@@ -872,20 +887,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           }],
           'chartTitle': 'States and UTs'
         };
-        this.countries = [];
-        this.country = 'India';
-        this.history = {};
-        this.dataSource = {};
-        this.chartTitle = '';
-        this.type = 'PieChart';
-        this.data = [['Above 60', 100], ['Below 60', 232]];
-        this.columnNames = ['Browser', 'Percentage'];
-        this.options = {
-          is3D: true,
-          height: 900
-        };
-        this.width = 350;
-        this.title = 'covid19 Status ';
         this.countries = ['India', 'Usa', 'Italy', 'China', 'Pakistan', 'Canada', 'Germany', 'France', 'Spain', 'Australia'];
         this.dataSource = {
           chart: {
@@ -943,7 +944,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         key: "onResize",
         value: function onResize(event) {
           this.innerWidth = window.innerWidth - 50;
-          console.log(this.innerWidth);
         }
       }, {
         key: "getCovidUpdate",
@@ -963,7 +963,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var _this4 = this;
 
           this.covidDataService.getHistory(country).subscribe(function (data) {
-            _this4.history = data, console.log(_this4.history);
+            _this4.history = data;
           }, function (er) {
             return console.log(er);
           });
@@ -974,7 +974,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var _this5 = this;
 
           this.covidDataService.getStatesData().subscribe(function (data) {
-            _this5.statesChart.states = data['statesArrayData'], _this5.dataSource['data'] = data['mapdata'], console.log(data);
+            _this5.statesChart['states'] = data['statesArrayData'], _this5.dataSource['data'] = data['mapdata'], console.log(data);
           }, function (err) {
             return console.log(err);
           });
@@ -1327,7 +1327,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("title", ctx.statesChart.chartTitle)("type", ctx.statesChart.type)("data", ctx.statesChart.states)("columnNames", ctx.statesChart.columnNames)("options", ctx.options)("width", ctx.innerWidth);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("title", ctx.statesChart["chartTitle"])("type", ctx.statesChart["type"])("data", ctx.statesChart["states"])("columnNames", ctx.statesChart["columnNames"])("options", ctx.options)("width", ctx.innerWidth);
         }
       },
       directives: [_angular_material_button__WEBPACK_IMPORTED_MODULE_2__["MatButton"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_3__["MatIcon"], _angular_material_select__WEBPACK_IMPORTED_MODULE_4__["MatSelect"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], angular_fusioncharts__WEBPACK_IMPORTED_MODULE_6__["FusionChartsComponent"], angular_google_charts__WEBPACK_IMPORTED_MODULE_7__["GoogleChartComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_8__["RouterLinkWithHref"], _angular_material_core__WEBPACK_IMPORTED_MODULE_9__["MatOption"]],
